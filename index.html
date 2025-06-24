@@ -13,26 +13,25 @@
 <div class = weather-app>
 <body>
     <header>
-        <form>
-<input type = "search" placeholder = "Enter a city..." required/>
-<input type = "submit" value = "search"/>
-
-        </form>
+        <form class = "search-form">
+<input type = "Search" placeholder = "Enter a city..." required class = "search-form-input" >
+<input type = "submit" value = "Search" class = "search-form-button">
+  </form>
     </header>
     <main>
-        <h1>Paris</h1> 
-    </main>
-    <div>
-   <p>
+        <div class = "weather-app-data">
+            <div>
+        <h1 class = "weather-app-city" id="city">Paris</h1> 
+   <p class = "weather-app-details">
 Monday 20:00, clear sky
 <br/>
-Humidity: 47%, Wind: 6.69km/h
+ Humidity: <strong>40%</strong>, Wind:
+              <strong>3.6km/h</strong
    </p>
 </div>
-<div>
-☀️ 25°C
-<br/>
+<div>☀️ 25°C</div>
 </div>
+</main>
    <footer>
     This project was coded by
     <a href = "https://github.com/RobinLee1404/" target="_blank">Robin-Lee Edwards</a> and is</a>
